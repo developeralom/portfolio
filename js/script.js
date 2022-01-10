@@ -43,9 +43,9 @@ $(function(){
 
       // Slick Slider start
       $('.slider').slick({
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 2000,
         arrows:false,
         dots:true,
@@ -58,7 +58,7 @@ $(function(){
         duration:2000
       });
 
-      $(document).on('click', 'ul li', function(){
+      $(document).on('click', '#navbarSupportedContent ul li', function(){
         $(this).addClass('active').siblings().removeClass('active')
       });
 })
