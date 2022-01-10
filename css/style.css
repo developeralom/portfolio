@@ -1,0 +1,941 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+span {
+    margin: 0;
+    padding: 0;
+}
+.clr{
+    clear: both;
+}
+
+/* ========================== Common css end========================== */
+
+/* ========================== Menu part start========================== */
+#wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+#wrapper::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.314);
+    z-index: -1;
+}
+
+#header-part {
+    width: 20% !important;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+}
+
+.navbar {
+    height:100vh;
+
+}
+.navbar-expand-lg {
+    flex-wrap: wrap;
+}
+
+.main-menu {
+    justify-content: center;
+    display: block !important;
+    background: #000;
+    
+}
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row !important;
+    z-index: 999;
+}
+
+.main-menu .navbar-brand {
+    width: 100% !important;
+    margin-right: 0 !important;
+    text-align: center;
+
+    
+}.navbar-nav li.active a{
+    color: #20c997;
+}
+
+.main-menu .navbar-brand img {
+	width: 10vw;
+	height: 10vw;
+	border-radius: 50%;
+	margin: 3vw 3.8vw  1vw 3.8vw;
+	text-align: center;
+	border: .4vw solid #343a40;
+}
+
+.main-menu .navbar-brand span {
+    font-size: 1.8vw !important;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #20c997;
+    transition: all linear .3s;
+}
+
+.main-menu .navbar-brand:hover span {
+    color: #20c997;
+}
+
+.main-menu .navbar-nav {
+    width: 100% !important;
+    margin-top: 1vw;
+    z-index: 999;
+    display: block;
+    float: left;
+
+ 
+    
+}
+
+.main-menu ul li a {
+	font-size: 1.7vw;
+	font-weight: 500;
+	font-family: 'poppins';
+	color: #fafafae6;
+	text-align: center;
+	display: block !important;
+	transition: all linear .3s;
+	padding: .28vw 0;
+}
+
+.main-menu ul li a:focus {
+    color: #20c997;
+}
+
+.main-menu ul li a:hover {
+    color: #20c997;
+}
+
+
+.main-menu .social-icon {
+    width: 100%;
+    padding: 1vw 0;
+    float: left;
+   
+    display: block;
+    justify-content: center;
+   
+}
+#navbarSupportedContent{
+    flex-direction: column !important;
+    }
+    #navbarSupportedContent .social-icon{
+        display: flex !important;
+    }
+
+.main-menu .social-icon li a {
+	font-size: 1.5vw;
+	color: #fafafae6;
+	transition: all linear .3s;
+	padding: 0 .5vw;
+
+}
+
+.main-menu .social-icon li a:hover {
+    color: #20c997;
+}
+
+/* =============================== Header part end    ================================ */
+
+/* =============================== Conten part start  ================================ */
+#main-content {
+    width: 80%;
+    height: 100% !important;
+    float: right;
+    overflow: hidden;
+    z-index:-1;
+}
+
+#home {
+    background: url(../images/c.jpg) !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    z-index: 1;
+    background: #000;
+    
+
+
+}
+
+#home::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(72, 72, 117, 0.61);
+    z-index: -1;
+}
+
+.home-text {
+    padding: 150px 0;
+}
+.home-text .type{
+    color: #d10f0f;
+}
+
+.home-text h4 {
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: 'poppins';
+    color: #cacaca;
+    padding: 10px 10px 1rem 10px;
+
+}
+
+.home-text h2 {
+    font-size: 70px;
+    font-weight: 600;
+    font-family: 'poppins';
+    color: #fafafa;
+
+}
+
+.home-text p {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #cacaca;
+    padding: 50px 10px 20px 10px;
+}
+
+.home-text a {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'poppins';
+    height: 53px;
+    border-radius: 30px;
+    color: #20c997;
+    padding: 0 40px;
+    margin-bottom: 30px;
+    border: 2px solid #20c997;
+    background: transparent;
+    line-height: 50px;
+    transition: all linear .3s;
+    z-index: 99;
+    
+}
+
+.home-text a:hover {
+    color: #fff;
+    background: #20c997;
+    border-color: #20c997;
+    cursor: pointer;
+}
+
+
+
+/* =============================== Content part end    ================================ */
+
+
+
+
+
+/* =============================== About  part start  ================================ */
+
+.section-head {
+    margin: 50px;
+
+}
+
+.section-head .watermark {
+    position: relative;
+    text-align: center !important;
+}
+
+.section-head .watermark h2 {
+	font-size: 120px;
+	font-weight: 600;
+	text-transform: uppercase;
+	opacity: .21;
+	color: #c4bebee0;
+	z-index: -1;
+	justify-content: center;
+	position: relative;
+}
+
+.section-head .watermark h3 {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    content: '';
+    color: #000;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'poppins';
+    z-index: 1;
+    display: inline-block;
+
+}
+
+.section-head .watermark h3::before {
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: '';
+    height: 3px;
+    width: 80px;
+    background: #20c997;
+
+
+}
+
+.about-text h3 {
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'poppins';
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.about-text h3 span {
+    color: #20c997 !important;
+}
+
+.about-text p {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #4c4d4d;
+    line-height: 1.8rem;
+    margin-bottom: 16px;
+}
+
+.about-contact ul li {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #4c4d4d;
+    padding: 12px;
+}
+
+.about-contact ul li span {
+    color: #242424 !important;
+    font-weight: 600 !important;
+    margin-right: 3px !important;
+}
+
+.about-contact a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #fff;
+    padding: 15px 40px;
+    background: #20c997;
+    border-radius: 50px;
+    margin: 10px 0 0 10px;
+    transition: all linear .3s;
+
+
+}
+
+.about-contact a:hover {
+    background-color: #078861;
+    box-shadow: 0px 8px 15px #25252559 !important;
+}
+
+.about-counterup {
+    text-align: center !important;
+    border-right: 1px solid #e2dfdfdb;
+    padding: 15px 0;
+
+}
+
+.about-counterup span {
+    font-size: 3rem;
+    justify-content: center !important;
+    font-weight: 500;
+    font-family: 'poppins';
+    color: #6c757d;
+}
+
+.about-counterup p {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'poppins';
+    color: #9b9a9a;
+}
+
+/* =============================== About part end    ================================ */
+
+
+
+/* =============================== Service part start  ================================ */
+#service-part {
+    background: #f8f9fa;
+    
+
+}
+#service-part .section-head .watermark h2 {
+    font-size: 130px;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: .21;
+    color: #c8c8c8;
+    z-index: 1;
+    justify-content: center;
+    position: relative;
+
+}
+#service-part .serv-box {
+    margin-bottom: 40px;
+
+
+}
+
+#service-part .serv-box-icon {
+    float: left;
+    background: #fff;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px #91919159 !important;
+}
+
+.serv-box-icon p {
+    font-size: 45px;
+    color: #20c997;
+    padding: 3px 14px;
+
+}
+
+.serv-box-text {
+    margin-left: 120px;
+
+}
+
+.serv-box-text h2 {
+    font-size: 20px;
+    color: #252b33;
+    font-family: 'poppins';
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.serv-box-text p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'poppins';
+    line-height: 1.8rem;
+    color: #4c4d4d;
+    justify-content: left;
+}
+
+/* =============================== Service part end    ================================ */
+/* =============================== Summary  part start  ================================ */
+
+#summary-part{
+    margin-bottom: 100px;
+}
+#summary-part .sumarry-head{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'poppins';
+    color: #252b33;
+    margin: 10px 0;
+}
+.summary-text{
+    border: 1px solid #dee2e6 ;
+    padding:1.5rem;
+    margin: 20px 0;
+    border-radius: .25rem;
+}
+.summary-text span {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 400;
+	font-family: 'poppins';
+	color: #fff;
+	background: #20c997;
+	border-radius: 3px;
+	padding: 0px 10px;
+    margin-bottom: 10px;
+}
+.summary-text h2{
+    font-size: 21px;
+    font-weight: 500;
+    font-family: 'poppins';
+    color: #252b33;
+    margin: 10px 0;
+
+
+}
+.summary-text h4{
+
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #dc3545;
+    margin-bottom: 20px;
+    
+
+}
+.summary-text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #4c4d4d;
+    line-height: 1.8;
+    justify-content: left;
+
+}
+/* Skill Bar  */
+
+.skill-head{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'poppins';
+    color: #252b33;
+    margin: 10px 0;
+    margin-top: 30px;
+}
+.skill-bar{
+    height: 8px;
+    background: #cacaca;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-per{
+    height: 8px;
+    background-color: #20c997;
+    border-radius: 8px;
+    width: 0;
+    transition: 1s linear;
+    position: relative;
+  }
+  
+  .skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    color: #161616;
+    font-size: 12px;
+    font-family: 'poppins';
+    font-weight: 500;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+  }
+  .skill{
+      margin-bottom: 30px;
+  }
+  .skill-name{
+      font-size: 18px;
+      font-weight: 400;
+      font-family: 'poppins';
+      color: #242424;
+      margin: 8px 0;
+  }
+
+
+
+.download-cv{
+    text-align: center !important;
+
+}
+.download-cv a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #6c757d;
+    padding: 14px 50px;
+    border: 2px solid #6c757d;
+    background: transparent;
+    border-radius: 50px;
+    margin: 10px 0 0 10px;
+    transition: all linear .3s;
+
+    
+}
+
+.download-cv a:hover{
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+}
+
+
+/* =============================== Summary part end    ================================ */
+
+
+
+/* =============================== portfolio part start  ================================*/
+#portfolio-part{
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    background: #f8f9fa;
+}
+#portfolio-part .section-head h2{
+    z-index: 1;
+}
+
+#portfolio-part .filter-menu{
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: -30px;
+}
+#portfolio-part .filter-menu a{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'poppins';
+    color: #5f5e5e;
+    line-height: 40px;
+    padding: 0 10px;
+    position: relative;
+    transition: all linear .3s;
+}
+#portfolio-part .filter-menu a:hover{
+    color: #20c997;
+}
+
+
+
+.item{
+    position: relative;
+    overflow: hidden;
+}
+.item .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.616);
+    text-align: center;
+    opacity: 0;
+    transition: all linear .3s;
+    
+}
+.item img{
+    transform: scale(1);
+    transition: all linear .3s;
+}
+.item:hover img{
+    transform: scale(1.2);
+}
+
+.item .overlay .overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+}
+
+.item .overlay .overlay-text h2{
+    font-size: 21px;
+    font-weight: 500;
+    font-family: 'poppins';
+    color: #fff;
+}
+.item .overlay .overlay-text p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #fff;
+    margin-top: 5px;
+}
+.item .overlay:hover{
+    opacity: 1;
+}
+
+ 
+
+
+
+/* =============================== portfolio part end    ================================ */
+
+
+
+/* =============================== Testimonial part start  ================================ */
+
+#testimonial-part{
+    margin-bottom: 100px;
+}
+.slider-item{
+    background: #f8f9fa;
+    border-radius: 10px;
+    width: 95% !important;
+
+}
+.slider-item img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+
+    
+}
+.slider-item .head-text{
+    margin-left: -10px;
+}
+.slider-item .head-text h2{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'poppins';
+    margin-top: 10px;
+}
+.slider-item .head-text span{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'poppins';
+    display: block;
+    margin-top: 5px;
+}
+.slider-text {
+    margin-top: -20px !important;
+    margin-bottom: 1rem !important;
+}
+.slider-text p{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'poppins';
+    line-height: 1.5;
+    color: #343a40;
+    margin-bottom: 1rem;
+}
+.slider-text span{
+    color: #ffc107 ;
+    margin-right: 10px;
+    font-size: 20px;
+    
+}
+#testimonial-part .slick-dots{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+#testimonial-part .slick-dots li button{
+    font-size: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    color: #20c997;
+    margin: 20px 10px;  
+    transition: all linear .3s;
+}
+#testimonial-part .slick-dots li button:hover{
+    border: 1px solid #20c997;
+    background: #20c997;
+}
+
+
+/* =============================== Testimonial part end    ================================ */
+
+
+
+
+/* =============================== Contact part start  ================================ */
+
+#contact-part{
+    background:#f8f9fa;
+    margin-top: 100px;
+}
+#contact-part .section-head h2{
+    z-index: 1;
+}
+.contact-info h2{
+    font-size: 21px;
+    font-weight: 500;
+    font-family: 'poppins';
+    text-transform: uppercase;
+    color: #343a40;
+    margin-bottom: 10px;
+
+}
+.contact-info p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #343a40;
+    margin-bottom: 30px;
+    
+}
+.contact-call p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #20c997;
+    margin-bottom: 30px;
+
+}
+.contact-call p span{
+    color: #5f5e5e;
+    font-size: 14px;
+    margin-left: 6px;
+}
+.contact-social h2{
+    font-size: 21px;
+    font-weight: 500;
+    font-family: 'poppins';
+    text-transform: uppercase;
+    color: #343a40;
+    margin-bottom: 10px;
+
+}
+.contact-social{
+    margin-top: 30px;
+}
+.contact-social ul{
+    display: flex;
+    margin-top: 10px;
+
+}
+.contact-social ul li a{
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #5f5e5e;
+    margin-right:15px;
+    transition: all linear .3s;
+}
+.contact-social ul li a:hover{
+    color: #20c997;
+
+}
+
+.contact-form h2{
+    font-size: 21px;
+    font-weight: 500;
+    font-family: 'poppins';
+    text-transform: uppercase;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+.contact-form input{
+    height: 50px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #d2d2d2;
+    transition: all linear .3s;
+    
+
+}
+.contact-form input:focus , .contact-form textarea:focus{
+	border: 1px solid #07f5ad8f;
+	box-shadow: 0px 1px 8px rgba(38, 214, 161, 0.77);
+}
+.contact-form textarea{
+    height: 150px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #d2d2d2;
+    transition: all linear .3s;
+    
+
+}
+.send-message{
+    text-align: center !important;
+    margin-bottom: 50px;
+}
+.send-message a {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #fff;
+    padding: 15px 40px;
+    background: #20c997;
+    border-radius: 50px;
+    margin: 10px 0 0 10px;
+    transition: all linear .3s;
+    
+
+
+}
+.send-message a:hover {
+    background-color: #078861;
+    box-shadow: 0px 8px 15px #25252559 !important;
+}
+
+/* =============================== Contact part end    ================================ */
+
+/* =============================== Footer part start ================================== */
+#footer-part{
+    margin: 50px 0;
+}
+#footer-part p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #111111; 
+
+}
+#footer-part p a{
+    color: #20c997;
+    transition: all linear .3s;
+}
+#footer-part p a:hover{
+    color: #17a87d;
+}
+#footer-part ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #111111;
+    padding: 0 15px;
+    transition: all linear .3s;
+
+}
+#footer-part ul li a:hover{
+    color: #20c997;
+
+}
+#footer-part ul li span{
+    color: #8b8989c7;
+    font-size: 15px;
+}
+
+/* =============================== Footer part start ================================== */

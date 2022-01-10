@@ -1,0 +1,452 @@
+/* ============= For Exrea Large  Devices ============= */
+@media (min-width:1400px) {}
+
+/* ============= For Large  Devices ============= */
+@media (min-width:1200) and (max-width:1399.98) {}
+
+/* ============= For Medium Devices ============= */
+@media (min-width:992px) and (max-width:1199.98) {}
+
+/* ============= For Landscape mode Devices ============= */
+@media (min-width:768px) and (max-width:990.98px) {}
+
+/* ============= For Small  Devices ============= */
+@media (min-width:576px) and (max-width:767.98px) {}
+
+/* ============= For Extra Small Devices ============= */
+@media (max-width:575.98px) {
+
+    #header-part {
+        width: 100% !important;
+        height: 60px;
+        position: fixed;
+        overflow: visible;
+        z-index: 99;
+    }
+    
+    .navbar {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        z-index: 999;
+    }
+
+    
+    .main-menu {
+        background: #000;
+        z-index: 999;
+        border-bottom: 2px solid #fff;
+    }
+    
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row !important;
+    }
+    
+    .main-menu .navbar-brand {
+        display: inline;
+        text-align: left;
+        
+    }
+    
+    .main-menu .navbar-brand img {
+        display: none;
+
+    }
+    
+    .main-menu .navbar-brand span {
+        font-size: 27px !important;
+        font-weight: 400;
+        font-family: 'poppins';
+        color: #fafafa;
+        padding-left: 10px;
+        transition: all linear .3s;
+        line-height: 60px;
+    }
+    
+    .main-menu .navbar-brand:hover i {
+        color: #20c997;
+    }
+    
+    .main-menu .navbar-nav {
+    width: 100% !important;
+     
+        margin-top: 0px;
+        background: #000;
+        
+        
+    }
+    
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column !important; 
+    }
+    .navbar-expand-lg .navbar-nav a:hover {
+         color: #20c997;
+    }
+    .main-menu .navbutton {
+        float: right;
+        background: transparent;
+        color: #fff;
+        padding: 0 !important;
+        margin: 0;
+        margin-right: 20px;
+        font-size: 24px;
+        outline: 0;
+        transition: all linear .3s;
+        margin-top: 17px;
+    }
+    .main-menu .navbutton:focus{
+        color: #20c997;
+        outline: 0;
+        box-shadow: none;
+    }
+    
+
+    .main-menu ul li a {
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'poppins';
+        color: #fafafae6;
+        text-align: center;
+        display: block !important;
+        transition: all linear .3s;
+        padding: 8px 0;
+    }
+    
+    .main-menu ul li a:focus {
+        color: #20c997;
+    }
+    
+    .main-menu ul li a:hover {
+        color: #20c997;
+    }
+    
+    .main-menu .social-icon {
+        flex-direction: row !important;
+        padding-top: 20px 0 5px 0;
+        display: flex;
+    }
+    .main-menu .social-icon li a {
+        font-size: 20px;
+        padding: 0 8px;
+    
+    }
+    
+ 
+    .main-menu .navbutton:focus{
+        z-index: -999;
+        background: #000;
+    }
+    
+    /* ============================== banner css start============================= */
+    #main-content {
+        width: 100%;
+        top: 60px;
+    }
+
+    #home {
+        width: 100%;
+        
+
+    }
+
+    .home-text {
+        padding: 100px 0;
+    }
+  
+    .home-text h4 {
+        font-size: 22px;
+        font-weight: 500;
+        color: #c8c8c8;
+        padding: 10px 10px 20px 10px;
+
+    }
+
+    .home-text h2 {
+        font-size: 27px;
+
+    }
+
+    .home-text p {
+        font-size: 16px;
+    }
+
+    .home-text a {
+        font-size: 16px;
+        height: 40px;
+        padding: 0 30px;
+        margin-bottom: 30px;
+        line-height: 37px;
+    }
+
+    /* ======================== About css start ==================== */
+
+
+    .section-head {
+        margin: 20px 0;
+
+    }
+
+    .section-head .watermark {
+        position: relative;
+        text-align: center !important;
+    }
+
+    .section-head .watermark h2 {
+        font-size: 48px;
+        opacity: 0.35;
+
+    }
+
+    .section-head .watermark h3 {
+        top: 40%;
+        color: #454444;
+        font-size: 19px;
+        font-weight: 500;
+
+    }
+
+    .section-head .watermark h3::before {
+        position: absolute;
+        bottom: -7px;
+        left: 50%;
+        transform: translateX(-50%);
+        content: '';
+        height: 3px;
+        width: 80px;
+        background: #20c997;
+
+
+    }
+
+    .about-text h3 {
+        font-size: 18px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+        line-height: 1.6rem;
+        margin-bottom: 10px;
+    }
+
+    .about-contact {
+        margin: 10px 0;
+    }
+
+    .about-contact ul li {
+        font-size: 16px;
+        padding: 12px 0;
+    }
+
+    .about-contact ul li span {
+        color: #696868 !important;
+        font-weight: 600 !important;
+        margin-right: 3px !important;
+    }
+
+    .about-contact a {
+        font-size: 14px;
+        padding: 10px 26px;
+        margin-top: 10px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .about-counterup span {
+        font-size: 14px;
+        justify-content: center !important;
+        font-weight: 500;
+        font-family: 'poppins';
+        color: #6c757d;
+    }
+
+    .about-counterup p {
+        font-size: 12px;
+        color: #858181;
+        padding: 0 8px;
+        justify-content: center !important;
+    }
+
+    .about-counterup {
+        text-align: center !important;
+        border: 0;
+        padding: 15px 0;
+    }
+
+
+
+
+
+
+
+    /* ====================== Service css start ==================== */
+
+    #service-part {
+        background: #f8f9fa;
+        margin-top: 20px;
+    }
+
+    #service-part .section-head .watermark h2 {
+        font-size: 48px;
+        opacity: .35;
+        padding-top: 10px;
+
+    }
+
+    #service-part .section-head .watermark h3 {
+        top: 50%;
+        color: #454444;
+        font-size: 19px;
+        font-weight: 500;
+
+    }
+
+
+
+    #service-part .serv-box {
+        margin-bottom: 40px;
+        justify-content: center;
+
+
+    }
+
+    #service-part .serv-box-icon {
+        background: transparent;
+        border-radius: 0;
+        text-align: center;
+        display: block;
+        width: 100%;
+        height: auto;
+        box-shadow: 0px 0px 0 #91919159 !important;
+        margin-bottom: 20px;
+    }
+
+
+    .serv-box-icon p {
+        font-size: 45px;
+        color: #20c997;
+        padding: 5px;
+        width: 80px !important;
+        height: 80px !important;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 3px;
+        box-shadow: 1px 1px 5px #91919159 !important;
+
+    }
+
+    .serv-box-text {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    .serv-box-text h2 {
+        font-size: 20px;
+        color: #252b33;
+        font-family: 'poppins';
+        font-weight: 500;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .serv-box-text p {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'poppins';
+        color: #4c4d4d;
+        text-align: center;
+    }
+
+
+
+
+    /* ========================= Summary Css start ====================== */
+
+    #summary-part {
+        margin-bottom: 50px;
+    }
+
+    .download-cv a {
+        font-size: 13px;
+        padding: 10px 32px;
+    }
+
+
+    /* ============================ Portfolio css ===================== */
+
+    #portfolio-part .section-head {
+        padding: 20px 0;
+    }
+
+    #portfolio-part .filter-menu a {
+        font-size: 15px;
+        padding: 0 7px;
+
+    }
+
+
+    /* =================================== Contact css ================== */
+
+    .contact-info {
+        order: 2;
+    }
+
+    .contact-social h2 {
+        font-size: 18px !important;
+        text-align: left !important;
+
+    }
+
+    .contact-info h2 {
+        font-size: 21px;
+
+        text-align: center;
+    }
+
+
+
+
+    .contact-form {
+        order: 1;
+    }
+
+    .contact-form h2 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .contact-form input {
+        height: 42px;
+
+    }
+
+    .contact-form textarea {
+        height: 100px;
+
+    }
+
+    .send-message a {
+        font-size: 15px;
+        padding: 12px 30px;
+
+    }
+
+    /* ======================== Footer css====================== */
+    #footer-part p {
+        font-size: 12px;
+    }
+
+    #footer-part ul li a {
+        font-size: 14px;
+        padding: 0 10px;
+
+    }
+
+    #footer-part {
+        margin: 30px 0;
+    }
+
+}
