@@ -93,7 +93,11 @@ span {
     text-align: center;
 
     
-}.navbar-nav li.active a{
+}
+.main-menu .navbar-nav li.active a{
+    color: #20c997;
+}
+.slider ul li.active button{
     color: #20c997;
 }
 
@@ -762,9 +766,11 @@ span {
     height: 14px;
     border-radius: 50%;
     color: #20c997;
+
     margin: 20px 10px;  
     transition: all linear .3s;
 }
+
 #testimonial-part .slick-dots li button:hover{
     border: 1px solid #20c997;
     background: #20c997;
