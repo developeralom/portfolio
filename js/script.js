@@ -60,5 +60,5 @@ $(function(){
 
       $(document).on('click', '#navbarSupportedContent ul li', function(){
         $(this).addClass('active').siblings().removeClass('active')
-      });
+      }); 
 })
