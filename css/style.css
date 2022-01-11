@@ -225,9 +225,9 @@ span {
 }
 
 .home-text h4 {
-    font-size: 3rem;
+    font-size: 50px;
     font-weight: 500;
-    font-family: 'poppins';
+    font-family: 'Pacifico', cursive;
     color: #cacaca;
     padding: 10px 10px 1rem 10px;
 
@@ -238,6 +238,7 @@ span {
     font-weight: 600;
     font-family: 'poppins';
     color: #fafafa;
+    height:100px;
 
 }
 
