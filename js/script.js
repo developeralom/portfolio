@@ -13,7 +13,7 @@ $(function(){
       strings: [
         ' Shah Alam',
          ' a Web Designer',
-         'a font-end Developer'
+         'a Web Developer'
         ],
         typeSpeed: 60,
         backSpeed:60,
