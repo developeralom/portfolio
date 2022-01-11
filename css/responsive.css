@@ -110,7 +110,7 @@
         text-align: center;
         display: block !important;
         transition: all linear .3s;
-        padding: 8px 0;
+        padding: 5px 0;
     }
     
     .main-menu ul li a:focus {
@@ -123,7 +123,7 @@
     
     .main-menu .social-icon {
         flex-direction: row !important;
-        padding-top: 20px 0 5px 0;
+        padding: 20px 0 25px 0;
         display: flex;
     }
     .main-menu .social-icon li a {
@@ -151,14 +151,14 @@
     }
 
     .home-text {
-        padding: 140px 0 80px  0;
+        padding: 100px 0 50px 0;
     }
   
     .home-text h4 {
         font-size: 38px;
         font-weight: 600;
         color: #ece8e8;
-        padding: 30px 10px 50px 10px;
+        padding: 30px 10px 20px 10px;
     }
 
     .home-text h2 {
