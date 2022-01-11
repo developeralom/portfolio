@@ -147,6 +147,7 @@
 
     #home {
         width: 100%;
+        margin-top: 70px !important;
         
 
     }
@@ -164,7 +165,7 @@
 
     .home-text h2 {
         font-size: 27px;
-        height: 95px;
+        height: 80px;
 
     }
 
@@ -257,17 +258,17 @@
     }
 
     .about-counterup span {
-        font-size: 14px;
+        font-size: 17px;
         justify-content: center !important;
         font-weight: 500;
         font-family: 'poppins';
-        color: #6c757d;
+        color: #20c997;
     }
 
     .about-counterup p {
-        font-size: 12px;
+        font-size: 15px;
         color: #858181;
-        padding: 0 8px;
+        padding: 0px 20px;
         justify-content: center !important;
     }
 
@@ -365,7 +366,12 @@
     }
 
 
-
+    #service-part .serv-box {
+        padding-bottom: 40px;
+        background: #f0eeeeba;
+        margin-bottom: 25px;
+        box-shadow: 0px 1px 7px #bda4a4ba;
+    }
 
     /* ========================= Summary Css start ====================== */
 
@@ -391,6 +397,28 @@
 
     }
 
+/* ===================================== Testimonial part start ================== */
+.slider-item .head-text {
+	margin-left: 10px;
+}
+.slider-item {
+
+	width: 100% !important;
+}
+.slider-text {
+	margin-top: 10px !important;
+	
+}
+.slider-item img {
+	height: 80px;
+	width: 80px;
+	margin:0 auto;
+    margin-top:10px;
+}
+.summary-text {
+
+	background: #f1ededd9;
+}
 
     /* =================================== Contact css ================== */
 
