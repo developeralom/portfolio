@@ -22,6 +22,7 @@
         position: fixed;
         overflow: visible;
         z-index: 99;
+	margin-top:2px;
         
     }
     
